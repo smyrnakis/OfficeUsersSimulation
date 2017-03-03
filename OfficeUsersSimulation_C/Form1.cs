@@ -257,13 +257,13 @@ Curabitur non eros. Nullam hendrerit bibendum justo. Fusce iaculis, est quis lac
                         backgroundWorkerExcelCreate.RunWorkerAsync();
                     
                     /*
-                                        string fromWordPath = workingDirectory + "\\" + wordFileName + "_from.docx";
-                                        string toWordPath = workingDirectory + "\\" + wordFileName + "_to.docx";
-
-                                        CopyDocument(fromWordPath, toWordPath);
-                                        runStopWatch.Stop();
-                                        TimeSpan runSWtimeSpan = runStopWatch.Elapsed;
-                                        MessageBox.Show(runSWtimeSpan.ToString());
+                    string fromWordPath = workingDirectory + "\\" + wordFileName + "_from.docx";
+                    string toWordPath = workingDirectory + "\\" + wordFileName + "_to.docx";
+                    
+                    CopyDocument(fromWordPath, toWordPath);
+                    runStopWatch.Stop();
+                    TimeSpan runSWtimeSpan = runStopWatch.Elapsed;
+                    MessageBox.Show(runSWtimeSpan.ToString(),"Run time");
                     */
 
                 }
