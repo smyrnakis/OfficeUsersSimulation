@@ -1,0 +1,33 @@
+create 10 words & excels - autodelete - OK
+nof 10 crtfls usewd usexl autodel wrkdir "\\cern.ch\dfs\Users\a\asmyrnak\Desktop\OfficeSimulator Tests"
+
+create 10 empty - OK
+nof 10 emtfls usewd usexl wrkdir "\\cern.ch\dfs\Users\a\asmyrnak\Desktop\OfficeSimulator Tests"
+
+create 8 words & excels & empty - OK
+nof 8 emtfls crtfls usewd usexl wrkdir "\\cern.ch\dfs\Users\a\asmyrnak\Desktop\OfficeSimulator Tests" 
+
+create 5 words & excels & empty - autodelete - OK
+nof 5 autodel emtfls crtfls usewd usexl wrkdir "\\cern.ch\dfs\Users\a\asmyrnak\Desktop\OfficeSimulator Tests" 
+
+WRONG NO crtfls OR emtfls SELECTED
+nof 5 autodel usewd usexl wrkdir "\\cern.ch\dfs\Users\a\asmyrnak\Desktop\OfficeSimulator Tests" 
+
+create 13 words & excels - vary formatting - OK
+nof 13 vrfrm crtfls usewd usexl wrkdir "\\cern.ch\dfs\Users\a\asmyrnak\Desktop\OfficeSimulator Tests"
+
+create 12 excels - vary formatting - OK
+nof 12 crtfls usexl vrfrm wrkdir "\\cern.ch\dfs\Users\a\asmyrnak\Desktop\OfficeSimulator Tests"
+
+
+
+
+CREATE 10 empty words
+nof 10 emtfls usewd wrkdir "\\cern.ch\dfs\Users\a\asmyrnak\Desktop\OfficeSimulator Tests"
+
+CREATE 10 empty excels
+nof 10 emtfls usexl wrkdir "\\cern.ch\dfs\Users\a\asmyrnak\Desktop\OfficeSimulator Tests"
+
+
+~~~ DFS:	\\cern.ch\dfs\Users\a\asmyrnak\Desktop\OfficeSimulator Tests\
+~~~ SAMBA:	\\cernbox-smb.cern.ch\eos\user\a\asmyrnak\

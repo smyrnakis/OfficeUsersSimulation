@@ -49,30 +49,6 @@ namespace OfficeUsersSimulation_C.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string lastSampleWord {
-            get {
-                return ((string)(this["lastSampleWord"]));
-            }
-            set {
-                this["lastSampleWord"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string lastSampleExcel {
-            get {
-                return ((string)(this["lastSampleExcel"]));
-            }
-            set {
-                this["lastSampleExcel"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
         public bool lastAutoDelete {
             get {
@@ -92,6 +68,42 @@ namespace OfficeUsersSimulation_C.Properties {
             }
             set {
                 this["lastVaryFormatting"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int lastDelayInEditing {
+            get {
+                return ((int)(this["lastDelayInEditing"]));
+            }
+            set {
+                this["lastDelayInEditing"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool useWords {
+            get {
+                return ((bool)(this["useWords"]));
+            }
+            set {
+                this["useWords"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool useExcels {
+            get {
+                return ((bool)(this["useExcels"]));
+            }
+            set {
+                this["useExcels"] = value;
             }
         }
     }
